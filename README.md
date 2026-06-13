@@ -1,39 +1,33 @@
 # Get Insights From Any Dataset
 
-Automated exploratory data analysis notebook that combines Auto EDA with a rule-based insight layer.
+## Overview
 
-The project is designed to reduce the first-pass analysis time for tabular datasets by profiling columns, identifying basic patterns, and surfacing readable observations.
+Automated dataset insight engine using Auto EDA plus rule-based analysis in Jupyter.
 
-## What It Does
+Project type: Jupyter notebook project.
 
-- Loads a tabular dataset into a notebook workflow
-- Performs automated exploratory data analysis
-- Applies rule-based checks to generate interpretable insights
-- Helps identify missing values, distributions, relationships, and data quality issues
-- Produces a starting point for downstream ML or business analysis
+## What This Repository Contains
 
-## Why This Matters
-
-In applied ML work, the model is rarely the first step. A strong workflow starts with understanding the data. This repo shows the data-analysis layer that comes before feature engineering, modeling, and explainability.
+- `Approach_2_AUto_EDA_+_rule_engine.ipynb`
+- `README.md`
 
 ## Tech Stack
 
-Python, Jupyter Notebook, pandas-style tabular analysis, automated EDA workflow, rule-based insight generation.
+Jupyter Notebook
 
-## Repository Map
+## How To Run / Use
 
-```text
-Approach_2_AUto_EDA_+_rule_engine.ipynb
-README.md
-```
+Open the notebook in Jupyter/VS Code and run the cells from top to bottom:
 
-## How To Use
+- Approach_2_AUto_EDA_+_rule_engine.ipynb
 
-1. Open the notebook.
-2. Replace the input dataset with your CSV/tabular file.
-3. Run the EDA and rule-engine cells.
-4. Review generated observations before modeling.
+## Current Status
 
-## Recruiter Notes
+This is a small repository with limited source files. Treat it as a utility, notebook, or practice artifact unless expanded.
 
-This is useful as a data science support project. To make it stronger, add one polished example dataset, generated insight screenshots, and a short before/after case study.
+## Notes For Reviewers
+
+- Start with the overview and key files above.
+- If this is a notebook repository, run it in a clean Jupyter or VS Code notebook environment.
+- If this is a frontend app, run the install/build commands before judging the project.
+- Some older practice repositories are kept public for learning history, not as primary portfolio pieces.
