@@ -37,3 +37,5 @@ This is a small repository with limited source files. Treat it as a utility, not
 
 Reviewed for recruiter visibility, setup clarity, and AI/ML positioning on June 13, 2026.
 <!-- recruiter-review:end -->
+
+<!-- repository-refresh: 2026-06-29 | preserved-order-rank: 010/71 -->
